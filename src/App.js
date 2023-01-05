@@ -3,7 +3,7 @@ import NavBarr from './components/navbar/NavBarr';
 
 function App() {
   return (<>
-    <NavBarr/>
+   <h1>Proyecto Numen PetShop</h1>
   </>
     
   );
