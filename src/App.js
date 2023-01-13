@@ -14,7 +14,22 @@ import Accesorios from './components/pages/Accesorios';
 
 function App() {
   return (<>
-    <NavBarr/>
+     <Router>
+        <Navbar />
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/productos" element={<Productos />} />
+          <Route path="/servicios" element={<Servicios />} />
+          <Route path="/contacto" element={<Contacto />} />
+          <Route path="/carrito" element={<Carrito />} />   
+          <Route path="/Productos-perros" element={<Perros />} />
+          <Route path="/Productos-gatos" element={<Gatos />} />   
+          <Route path="/Indumentaria" element={<Indumentaria />} />  
+          <Route path="/Accesorios" element={<Accesorios />} />          
+      </Routes>
+            
+    </Router>
+     
   </>
     
   );
