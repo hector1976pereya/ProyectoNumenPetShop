@@ -1,0 +1,53 @@
+/***** Estilos general *****/
+
+:root {
+  --first-color:#EB6440;
+  --second-color:#497174;
+  --third-color:#D6E4E5;
+  --grey-light-color: #EFF5F5;
+  --white-color: #ffffff;
+  --black-color: #000000;
+  --transparent-color: transparent;
+  
+}
+
+/***** Dropdown Navbar *****/
+
+.dropdown-menu {
+  width: 130px;
+  position: absolute;
+  top: 80px;
+  list-style: none;
+  text-align: start;
+ 
+}
+
+.dropdown-menu li {
+  background: var(--second-color);
+  cursor: pointer;  
+}
+
+.dropdown-menu li:hover {
+  color: var(--first-color);
+  background-color: var(--first-color);
+  transition: all 0.2s ease-out;
+}
+
+.dropdown-menu.clicked {
+  display: none;
+}
+
+.dropdown-link {
+  display: block;
+  height: 100%;
+  width: 100%;
+  text-decoration: none;
+  color: #fff;
+  padding: 16px;
+}
+
+@media screen and (max-width: 960px) {
+  .fa-caret-down {
+    display: none;
+  }
+}

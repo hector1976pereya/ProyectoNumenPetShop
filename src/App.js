@@ -3,7 +3,8 @@ import NavBarr from './components/navbar/NavBarr';
 
 function App() {
   return (<>
-    <NavBarr/>
+    <NavBarr/> 
+    
   </>
     
   );
