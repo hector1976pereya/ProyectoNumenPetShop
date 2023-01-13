@@ -32,7 +32,7 @@ function Navbar() {
   return (
     <>
       <nav className='navbar'>
-        <Link to='/home' className='navbar-logo' onClick={closeMobileMenu}>
+        <Link to='/' className='navbar-logo' onClick={closeMobileMenu}>
         <i class="fa-solid fa-cat"></i>&nbsp;
           Almacén para mascotas 
         </Link>
@@ -44,7 +44,7 @@ function Navbar() {
 
 
           <li className='nav-item'>
-            <Link to='/Home' className='nav-links' onClick={closeMobileMenu}>
+            <Link to='/' className='nav-links' onClick={closeMobileMenu}>
               Home
             </Link>
           </li>
