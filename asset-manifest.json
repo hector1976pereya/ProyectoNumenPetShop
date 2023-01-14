@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/repository-name/static/css/main.ce336a12.css",
-    "main.js": "/repository-name/static/js/main.fb283b7c.js",
-    "index.html": "/repository-name/index.html",
-    "main.ce336a12.css.map": "/repository-name/static/css/main.ce336a12.css.map",
-    "main.fb283b7c.js.map": "/repository-name/static/js/main.fb283b7c.js.map"
+    "main.css": "/ProyectoNumenPetShop/static/css/main.ce336a12.css",
+    "main.js": "/ProyectoNumenPetShop/static/js/main.fb283b7c.js",
+    "index.html": "/ProyectoNumenPetShop/index.html",
+    "main.ce336a12.css.map": "/ProyectoNumenPetShop/static/css/main.ce336a12.css.map",
+    "main.fb283b7c.js.map": "/ProyectoNumenPetShop/static/js/main.fb283b7c.js.map"
   },
   "entrypoints": [
     "static/css/main.ce336a12.css",
