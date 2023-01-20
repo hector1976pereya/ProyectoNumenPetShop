@@ -1,4 +1,4 @@
-import Boton from "./Boton"
+
 
 
 const Tarjeta = (props) => {
