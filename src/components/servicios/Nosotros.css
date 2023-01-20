@@ -1,0 +1,17 @@
+
+
+.Nosotros h1 {
+    padding: 1rem;
+    text-align: center;
+    font-size: 30px;
+    text-decoration-color: #000000;
+    font-family: "Monserrat";
+}
+
+.Nosotros p {
+    margin-left: 2rem;
+    margin-right: 2rem;
+    font-size: 18px;
+    text-decoration-color: #000000;
+    font-family: "Kinsta";
+}

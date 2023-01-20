@@ -1,0 +1,30 @@
+
+
+.ServiciosUno h2{
+    font-size: 30px;
+    font-family: "Monserrat";
+    text-align: center;
+    text-decoration-color: #000000;
+}
+
+.ServiciosDos p {
+    margin-left: 2rem;
+    margin-right: 2rem;
+    font-size: 18px;
+    text-decoration-color: #000000;
+    font-family: "Kinsta";
+    text-align: left;
+}
+
+.ServiciosDos ul li {
+    margin-left: 2rem;
+    margin-right: 2rem;
+    font-size: 18px;
+    text-decoration-color: #000000;
+    font-family: "Kinsta";
+    text-align: left;
+    
+    
+    
+  
+}
