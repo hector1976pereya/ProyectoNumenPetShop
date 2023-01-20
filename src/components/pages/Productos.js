@@ -1,6 +1,12 @@
-
-import '../../App.css';
+import { Link } from "react-router-dom";
+import "../../App.css";
 
 export default function Productos() {
-  return <h1 className='productos'>PRODUCTOS</h1>;
+    return (
+        <>
+            <Link  to={"/Productos-gatos"}>
+                <h1>Ir a Sección Gatos</h1>;
+            </Link>
+        </>
+    );
 }
