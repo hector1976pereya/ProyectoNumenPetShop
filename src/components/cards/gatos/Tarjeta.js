@@ -15,7 +15,8 @@ const Tarjeta = (props) => {
           justifyContent: "space-evenly",
           borderRadius: "10px",
           boxShadow: "5px 5px 5px",
-          margin:"70px"
+          margin:"70px",
+          background:"#EFF5F5"
       }}
       >
           <img src={props.objeto.img} alt=""/>

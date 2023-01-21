@@ -1,4 +1,4 @@
-import Seccion from "../cards/Seccion";
+import Seccion from "../cards/gatos/Seccion";
 
 const listaCats = [
     {
