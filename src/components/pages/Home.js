@@ -1,10 +1,28 @@
 import React from 'react';
-import '../../App.css';
+import '../carrusel/estilos.css'
+import Carrusel from '../carrusel/Carrusel';
+import logo from "../../images/logo.jpg"
 
 export default function Home() {
   return (
-    <>
-      <h1 className='home'>Bienvenidos a Almacén para mascotas</h1>
-    </>
+    <div>
+    
+
+<img 
+style={
+  {
+    borderRadius:"50%",
+    marginLeft: '30%',
+    marginRight: '30%',
+    marginTop:"2%"
+  }
+}
+
+src={logo} alt="" />
+      <Carrusel/>
+
+    </div>
+      
+    
   );
 }
