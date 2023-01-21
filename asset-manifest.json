@@ -1,13 +1,26 @@
 {
   "files": {
-    "main.css": "/ProyectoNumenPetShop/static/css/main.cdf174b1.css",
-    "main.js": "/ProyectoNumenPetShop/static/js/main.3d9215c9.js",
+    "main.css": "/ProyectoNumenPetShop/static/css/main.3256bf92.css",
+    "main.js": "/ProyectoNumenPetShop/static/js/main.7b985639.js",
+    "static/media/imgPetShop-2.png": "/ProyectoNumenPetShop/static/media/imgPetShop-2.e91db128728783ef799d.png",
+    "static/media/imgPetShop-6.png": "/ProyectoNumenPetShop/static/media/imgPetShop-6.df1852bce8408ac4f8c0.png",
+    "static/media/imgPetShop-4.png": "/ProyectoNumenPetShop/static/media/imgPetShop-4.e310485812214d632682.png",
+    "static/media/imgdeprueba.png": "/ProyectoNumenPetShop/static/media/imgdeprueba.37305cf54c014d047966.png",
+    "static/media/imgPetShop-8.png": "/ProyectoNumenPetShop/static/media/imgPetShop-8.e72c5dbe69f3e36a355f.png",
+    "static/media/imgPetShop-9.png": "/ProyectoNumenPetShop/static/media/imgPetShop-9.23fb5de075d443a5688f.png",
+    "static/media/imgPetShop-5.png": "/ProyectoNumenPetShop/static/media/imgPetShop-5.66a3da90fb42e0dc00e8.png",
+    "static/media/imgPetShop-3.png": "/ProyectoNumenPetShop/static/media/imgPetShop-3.200981d6da7a9b3165eb.png",
+    "static/media/imgPetShop-7.png": "/ProyectoNumenPetShop/static/media/imgPetShop-7.828fe77648686a5786ba.png",
+    "static/media/imgPetShop-1.png": "/ProyectoNumenPetShop/static/media/imgPetShop-1.5b2007d4b5f7c387f390.png",
+    "static/media/logo.jpg": "/ProyectoNumenPetShop/static/media/logo.70eff4cf866dc1d88215.jpg",
     "index.html": "/ProyectoNumenPetShop/index.html",
-    "main.cdf174b1.css.map": "/ProyectoNumenPetShop/static/css/main.cdf174b1.css.map",
-    "main.3d9215c9.js.map": "/ProyectoNumenPetShop/static/js/main.3d9215c9.js.map"
+    "static/media/iconmonstr-angel-left-thin.svg": "/ProyectoNumenPetShop/static/media/iconmonstr-angel-left-thin.b74b51c4c35fb292f28d63a42b7d73c9.svg",
+    "static/media/iconmonstr-angel-right-thin.svg": "/ProyectoNumenPetShop/static/media/iconmonstr-angel-right-thin.b282d2fca8839e80178c1a178ce23993.svg",
+    "main.3256bf92.css.map": "/ProyectoNumenPetShop/static/css/main.3256bf92.css.map",
+    "main.7b985639.js.map": "/ProyectoNumenPetShop/static/js/main.7b985639.js.map"
   },
   "entrypoints": [
-    "static/css/main.cdf174b1.css",
-    "static/js/main.3d9215c9.js"
+    "static/css/main.3256bf92.css",
+    "static/js/main.7b985639.js"
   ]
 }
