@@ -15,6 +15,9 @@ const shopReducer = (state, action) => {
         case READ_STATE: {
             return {
                 ...state,
+                productoDogs:action.payload.productListDog,
+                indumentarias: action.payload.productListClouthing,
+                accesorios:action.payload.productListAcces,
                 productoCats: action.payload.productListCat,
                 cart: action.payload.cartItem,
             };

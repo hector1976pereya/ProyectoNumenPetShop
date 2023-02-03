@@ -9,14 +9,14 @@
     {
       "id": 2,
       "producto": "PEDIGREE PERRO ADULTO X 21KG",
-      " precio": "7.430",
+      "precio": "7.430",
       "img": "https://catycanar.vtexassets.com/arquivos/ids/167311-800-auto?v=638071566721400000&width=800&height=auto&aspect=true"
     },
     {
       "id": 3,
       "producto": "KUME PERRO ADULTO X 3KG",
       "precio": "4.390",
-      " img": "https://d3ugyf2ht6aenh.cloudfront.net/stores/001/145/238/products/perro-kume-mordida-standar1-d36bde0d155c0f195a15950411509766-640-01-680428e9e537b5a27616351702109849-1024-1024.webp"
+      "img": "https://d3ugyf2ht6aenh.cloudfront.net/stores/001/145/238/products/perro-kume-mordida-standar1-d36bde0d155c0f195a15950411509766-640-01-680428e9e537b5a27616351702109849-1024-1024.webp"
     },
     {
       "id": 4,
@@ -31,9 +31,9 @@
       "img": "https://s.lamason.us/petshopmdq.com/media/2020/11/29105009/VC-COMPLETE-PERRO-MYG-ADULTO2.jpg"
     },
     {
-      " id": 6,
+      "id": 6,
       "producto": "ROYAL CANIN PUPPY X 10KG",
-      " precio": "4.000",
+      "precio": "4.000",
       "img": "https://puppis.vteximg.com.br/arquivos/ids/167003-1000-1000/Royal-Canin-Puppy-Medium.jpg?v=636965493339970000"
     },
     {
@@ -64,7 +64,7 @@
   "indumentarias": [
     {
       "id": 11,
-      " producto": "PRETAL PARA PERROS TALLE S",
+      "producto": "PRETAL PARA PERROS TALLE S",
       "precio": "1.770",
       "img": "https://d3ugyf2ht6aenh.cloudfront.net/stores/001/145/238/products/pretal-paris-11-c196f462818df8a6e116023562258485-480-0.webp"
     },
@@ -82,7 +82,7 @@
     },
     {
       "id": 14,
-      " producto": "PRETAL PARA PERROS CAPITAL AMERICA",
+      "producto": "PRETAL PARA PERROS CAPITAL AMERICA",
       "precio": "1.770",
       "img": "https://d3ugyf2ht6aenh.cloudfront.net/stores/001/145/238/products/captain-america11-c4f3e2462092f27a6c15875272718866-480-0.webp"
     },
@@ -134,7 +134,7 @@
       "id": 16,
       "producto": "RUEDITAS DE GOMA PARA PERROS",
       "precio": "2.770",
-      " img": "https://d3ugyf2ht6aenh.cloudfront.net/stores/001/145/238/products/ruedita-cancat1-125edbda75f1407ae415875854189967-480-0.webp"
+      "img": "https://d3ugyf2ht6aenh.cloudfront.net/stores/001/145/238/products/ruedita-cancat1-125edbda75f1407ae415875854189967-480-0.webp"
     },
     {
       "id": 17,
@@ -149,7 +149,7 @@
       "img": "https://d3ugyf2ht6aenh.cloudfront.net/stores/001/145/238/products/pelota-con-chifle1-b7ee0a3cd0091655b215975062822848-480-0.webp"
     },
     {
-      " id": 19,
+      "id": 19,
       "producto": "PELOTAS PORTA COMIDA PARA PERROS",
       "precio": "770",
       "img": "https://d3ugyf2ht6aenh.cloudfront.net/stores/001/145/238/products/squiki1-68154822edf24226aa16202475984010-480-0.webp"

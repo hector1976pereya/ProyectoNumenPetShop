@@ -1,7 +1,7 @@
+import AddToCart from "../../../action/functionAction/AddToCart"
 
 
-
-const TarjetaPerro = (props) => {
+const TarjetaPerro = ({objeto,setState,state}) => {
   return (
     <figure
     style={{
@@ -19,7 +19,7 @@ const TarjetaPerro = (props) => {
         background:"#EFF5F5"
     }}
     >
-        <img src={props.objeto.img} alt=""/>
+        <img src={objeto.img} alt=""/>
         <figcaption>
             <h3
               style={{
@@ -29,15 +29,21 @@ const TarjetaPerro = (props) => {
                 lineHeight: "1.5",
                 color: "#497174",
               }}
-            >{props.objeto.producto}</h3>
+            >{objeto.producto}</h3>
             <p
               style={{
                 color: "#497174",
                 fontFamily: "Monserrat"
               }}
-            > ${props.objeto.precio}</p>
+            > ${objeto.precio}</p>
         </figcaption>
         <button
+         onClick={() => {
+
+          AddToCart(objeto)
+          setState(!state)
+
+       }}
     style={{
         backgroundColor: "#EB6440",
         color: "white",

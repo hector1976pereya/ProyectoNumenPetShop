@@ -6,7 +6,7 @@ import TarjetaPerro from "./TarjetaPerro"
 
 
 
-const ListaTarjetaPerro = (props) => {
+const ListaTarjetaPerro = ({productoDogs, setState, state}) => {
   return (
     <div
        
@@ -17,9 +17,13 @@ const ListaTarjetaPerro = (props) => {
          }}
       >
       {
-        props.listaDogs.map(objeto => <TarjetaPerro
+        productoDogs.map(objeto => <TarjetaPerro
          
-          Key={objeto.id} objeto={objeto} />)
+          Key={objeto.id} 
+          objeto={objeto} 
+          setState={setState}
+          state={state}
+          />)
       }
       </div>
   )

@@ -5,7 +5,7 @@ import TarjetaIndumentaria from "./TarjetaIndumentaria"
 
 
 
-const ListaTarjetaIndumentaria = (props) => {
+const ListaTarjetaIndumentaria = ({indumentarias, setState, state}) => {
   return (
     <div
        
@@ -16,9 +16,13 @@ const ListaTarjetaIndumentaria = (props) => {
          }}
       >
       {
-        props.listaIndumentaria.map(objeto => <TarjetaIndumentaria
+        indumentarias.map(objeto => <TarjetaIndumentaria
          
-          Key={objeto.id} objeto={objeto} />)
+          Key={objeto.id} 
+          objeto={objeto} 
+          setState={setState}
+          state={state}
+          />)
       }
       </div>
   )

@@ -2,7 +2,7 @@
 
 import TarjetaAccesorio from './TarjetaAccesorio'
 
-const ListaAccesorios = (props) => {
+const ListaAccesorios = ({accesorios, setState, state}) => {
   return (
     <div
        
@@ -13,9 +13,12 @@ const ListaAccesorios = (props) => {
          }}
       >
       {
-        props.listaAccesorios.map(objeto => <TarjetaAccesorio
+        accesorios.map(objeto => <TarjetaAccesorio
          
-          Key={objeto.id} objeto={objeto} />)
+          Key={objeto.id} 
+          objeto={objeto}
+          setState={setState}
+          state={state} />)
       }
       </div>
   )

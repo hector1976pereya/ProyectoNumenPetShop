@@ -1,41 +1,64 @@
 import SeccionAccesorios from "../cards/accesorios/SeccionAccesorios";
-
-const listaAccesorios=[
-  {
-    id: 16,
-    producto: "RUEDITAS DE GOMA PARA PERROS",
-    precio: "2.770",
-    img: "https://d3ugyf2ht6aenh.cloudfront.net/stores/001/145/238/products/ruedita-cancat1-125edbda75f1407ae415875854189967-480-0.webp"
-  },
-  {
-    id: 17,
-    producto: "CUERDAS PARA PERROS",
-    precio: "2.770",
-    img: "https://d3ugyf2ht6aenh.cloudfront.net/stores/001/145/238/products/soga-2-nudos-16-soga-de-tela-con-nudo1-a0db0eb1fdc55c424316445924756769-480-0.webp"
-  },
-  {
-    id: 18,
-    producto: "PELOTAS PARA PERROS",
-    precio: "770",
-    img: "https://d3ugyf2ht6aenh.cloudfront.net/stores/001/145/238/products/pelota-con-chifle1-b7ee0a3cd0091655b215975062822848-480-0.webp"
-  },
-  {
-    id: 19,
-    producto: "PELOTAS PORTA COMIDA PARA PERROS",
-    precio: "770",
-    img: "https://d3ugyf2ht6aenh.cloudfront.net/stores/001/145/238/products/squiki1-68154822edf24226aa16202475984010-480-0.webp"
-  },
-  {
-    id: 20,
-    producto: "HUESITOS LIMIADIENTES CON POLLO PARA PERROS",
-    precio: "1.500",
-    img: "https://cat-oh.com/wp-content/uploads/2020/05/4564-Gweb-2048x2041.jpg"
-  }
-]
-
-
-
+import { useContext, useState, useEffect } from "react";
+import { ReducerContext } from "../../context/ContextReducer";
+import Modals from "../modals/Modals";
+import styled from "styled-components";
+import UpdateState from "../../updateState/UpdateState";
+import { Link } from "react-router-dom";
 
 export default function Accesorios() {
- return <SeccionAccesorios listaAccesorios={listaAccesorios}/>
+    const paqueteReducer = useContext(ReducerContext);
+    const [state, dispatch] = paqueteReducer;
+    const { accesorios } = state;
+
+    const [stateModal, setStateModal] = useState(false);
+
+    //-------------Funcion inicial de carga de las tarjetas en la seccion accesorios---------------
+
+    useEffect(() => {
+        UpdateState(dispatch);
+    }, []);
+
+    //----------------------------------------------------------------- -----------------------
+
+    return (
+        <div>
+            <SeccionAccesorios
+                accesorios={accesorios}
+                setState={setStateModal}
+                state={stateModal}
+            />
+              <Modals
+            state={stateModal}
+            
+            >
+                <Contenido>
+                    
+                    <button
+                    onClick={()=>setStateModal(false)}
+                    >Seguir comprando</button>
+                   
+                    <button
+                    onClick={()=>setStateModal(false)}
+                    ><Link to="/carrito" class="dropdown-item">
+                    Ir al carrito
+                </Link></button>
+                    
+                    
+                </Contenido>
+            </Modals>
+        </div>
+    );
 }
+const Contenido= styled.div`
+
+display: flex;
+flex-direction:row-reverse;
+
+button {
+    display: flex;
+   
+    margin:5px;
+}
+
+`;

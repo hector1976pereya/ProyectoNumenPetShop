@@ -1,7 +1,7 @@
 
+import AddToCart from "../../../action/functionAction/AddToCart";
 
-
-const TarjetaAccesorio = (props) => {
+const TarjetaAccesorio = ({objeto,setState,state}) => {
 
   
     return (
@@ -21,7 +21,7 @@ const TarjetaAccesorio = (props) => {
                 background: "#EFF5F5",
             }}
         >
-            <img src={props.objeto.img} alt="" />
+            <img src={objeto.img} alt="" />
             <figcaption>
                 <h3
                     style={{
@@ -32,7 +32,7 @@ const TarjetaAccesorio = (props) => {
                         color: "#497174",
                     }}
                 >
-                    {props.objeto.producto}
+                    {objeto.producto}
                 </h3>
                 <p
                     style={{
@@ -41,10 +41,16 @@ const TarjetaAccesorio = (props) => {
                     }}
                 >
                     {" "}
-                    ${props.objeto.precio}
+                    ${objeto.precio}
                 </p>
             </figcaption>
             <button
+             onClick={() => {
+
+                AddToCart(objeto)
+                setState(!state)
+      
+             }}
                 style={{
                     backgroundColor: "#EB6440",
                     color: "white",

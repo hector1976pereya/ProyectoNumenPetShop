@@ -5,9 +5,13 @@ import ListaTarjetaPerro from "./ListaTarjetaPerro"
 
 
 
-const SeccionPerros = (props) => {
+const SeccionPerros = ({productoDogs, setState, state}) => {
   return (
-    <ListaTarjetaPerro listaDogs={props.listaDogs}/>
+    <ListaTarjetaPerro 
+    productoDogs={productoDogs}
+    setState={setState}
+    state={state}
+    />
   )
 }
 

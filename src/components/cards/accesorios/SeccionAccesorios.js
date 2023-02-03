@@ -4,9 +4,14 @@ import ListaAccesorios from "./ListaAccesorios"
 
 
 
-const SeccionAccesorios = (props) => {
+const SeccionAccesorios = ({accesorios, setState, state}) => {
   return (
-    <ListaAccesorios  listaAccesorios={props.listaAccesorios}/>
+    <ListaAccesorios  
+    accesorios={accesorios}
+    setState={setState}
+    state={state}
+    />
+    
   )
 }
 

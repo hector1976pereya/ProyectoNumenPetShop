@@ -31,7 +31,14 @@ function App() {
                             </ContextReducer>
                         }
                     />
-                    <Route path="/perros" element={<Perros />} />
+                    <Route
+                        path="/perros"
+                        element={
+                            <ContextReducer>
+                                <Perros />
+                            </ContextReducer>
+                        }
+                    />
                     <Route
                         path="/gatos"
                         element={
@@ -40,8 +47,22 @@ function App() {
                             </ContextReducer>
                         }
                     />
-                    <Route path="/Indumentaria" element={<Indumentaria />} />
-                    <Route path="/Accesorios" element={<Accesorios />} />
+                    <Route path="/Indumentaria"
+                     element={
+                    <ContextReducer>
+                        <Indumentaria />
+                    </ContextReducer>
+                    
+                    
+                    } />
+                    <Route
+                        path="/Accesorios"
+                        element={
+                            <ContextReducer>
+                                <Accesorios />
+                            </ContextReducer>
+                        }
+                    />
                 </Routes>
             </Router>
         </>
