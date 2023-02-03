@@ -1,9 +1,60 @@
+import UpdateState from "../../updateState/UpdateState";
+import axios from "axios";
+import Select from "react-select";
+import { useState } from "react";
+
+const cantidades = [
+   
+    {
+        label: "2 unidades",
+        value: 2,
+    },
+    {
+        label: "3 unidades",
+        value: 3,
+    },
+];
 
 
 
-const TarjetaAccesorio = (props) => {
 
-  
+ 
+
+
+
+
+
+
+
+const CartItem = ({objeto, dispatch}) => {
+
+const [state, setState] = useState(1)
+
+const stateOption=(event)=>{
+
+setState(event.value)
+
+}
+    
+
+    //----------Función para eliminar producto------------------------------
+
+    const deleteFromCart = async (objeto) => {
+        const ENDPOINT = `http://localhost:5000/cart/${objeto.id}`;
+
+        const OPTIONS = {
+            method: "DELETE",
+            headers: { "content-type": "application/json" },
+        };
+        await axios(ENDPOINT, OPTIONS);
+
+        UpdateState(dispatch)
+    };
+
+   
+
+
+    //---------------------------------------------------------------------
     return (
         <figure
             style={{
@@ -21,7 +72,7 @@ const TarjetaAccesorio = (props) => {
                 background: "#EFF5F5",
             }}
         >
-            <img src={props.objeto.img} alt="" />
+            <img src={objeto.img} alt="" />
             <figcaption>
                 <h3
                     style={{
@@ -32,7 +83,7 @@ const TarjetaAccesorio = (props) => {
                         color: "#497174",
                     }}
                 >
-                    {props.objeto.producto}
+                    {objeto.producto}
                 </h3>
                 <p
                     style={{
@@ -41,10 +92,17 @@ const TarjetaAccesorio = (props) => {
                     }}
                 >
                     {" "}
-                    ${props.objeto.precio}
+                    ${objeto.precio * state}
                 </p>
             </figcaption>
+            <Select
+              defaultValue={{label:" 1 unidad", value:1}}
+              options={cantidades}
+              onChange={stateOption}
+            
+            />
             <button
+                onClick={() => deleteFromCart(objeto)}
                 style={{
                     backgroundColor: "#EB6440",
                     color: "white",
@@ -58,10 +116,10 @@ const TarjetaAccesorio = (props) => {
                     textAlign: "center",
                 }}
             >
-                AÑADIR COMPRA AL CARRITO
+                Eliminar este producto del carrito
             </button>
         </figure>
     );
 };
 
-export default TarjetaAccesorio;
+export default CartItem;

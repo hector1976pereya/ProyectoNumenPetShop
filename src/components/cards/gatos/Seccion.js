@@ -1,8 +1,12 @@
 import ListaTarjeta from "./ListaTarjeta"
 
-const Seccion = (props) => {
+const Seccion = ({productoCats, setState, state}) => {
     return (
-      <ListaTarjeta listaCats={props.listaCats} />
+      <ListaTarjeta 
+      productoCats={productoCats}
+      setState={setState}
+      state={state}
+      />
     )
   }
   

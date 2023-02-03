@@ -8,12 +8,15 @@
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
+    "axios": "^1.2.6",
     "bootstrap": "^5.2.3",
+    "json-server": "^0.17.1",
     "react": "^18.2.0",
     "react-bootstrap": "^2.7.0",
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.6.1",
     "react-scripts": "5.0.1",
+    "react-select": "^5.7.0",
     "sass": "^1.57.1",
     "styled-components": "^5.3.6",
     "web-vitals": "^2.1.4"
@@ -24,7 +27,8 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeply": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d build",
+    "jServer": "json-server --port 5000 --watch src/assets/db.json"
   },
   "eslintConfig": {
     "extends": [

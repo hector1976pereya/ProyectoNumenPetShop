@@ -5,10 +5,10 @@ export default function Productos() {
     return (
         <>
          
-            <Link  to={"/Productos-perros"}>
+            <Link  to={"/perros"}>
                 <h2>Ir a Sección Perros</h2>;
             </Link>
-            <Link  to={"/Productos-gatos"}>
+            <Link  to={"/gatos"}>
                 <h2>Ir a Sección Gatos</h2>;
             </Link>
             <Link  to={"/Indumentaria"}>

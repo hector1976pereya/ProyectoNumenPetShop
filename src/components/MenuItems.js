@@ -1,13 +1,13 @@
 export const MenuItems = [
   {
     title: 'Perros',
-    path: '/productos-perros',
+    path: '/perros',
     cName: 'dropdown-link'
   },
 
   {
     title: 'Gatos',
-    path: '/productos-gatos',
+    path: '/gatos',
     cName: 'dropdown-link'
   },
 
