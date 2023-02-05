@@ -12,6 +12,8 @@ import Gatos from "./components/pages/Productos-gatos";
 import Indumentaria from "./components/pages/Indumentaria";
 import Accesorios from "./components/pages/Accesorios";
 import ContextReducer from "./context/ContextReducer";
+import Footer from "./components/footer/Footer";
+import FingWhatsApp from "./components/floatingWhatsApp/FingWhatsApp";
 
 function App() {
     return (
@@ -65,6 +67,11 @@ function App() {
                     />
                 </Routes>
             </Router>
+
+            <FingWhatsApp/>
+
+           <Footer/>             
+
         </>
     );
 }

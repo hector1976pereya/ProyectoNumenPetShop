@@ -1,0 +1,126 @@
+/***** Estilos general *****/
+
+:root {
+    --first-color:#EB6440;
+    --second-color:#497174;
+    --third-color:#D6E4E5;
+    --grey-light-color: #EFF5F5;
+    --white-color: #ffffff;
+    --black-color: #000000;
+    --transparent-color: transparent;
+  }
+  
+  /***** Footer *****/
+  
+  .hr-footer {
+    width:55%;
+    margin-left: 5rem;
+    margin-top: 0.5rem;
+    background-color: var(--third-color); 
+    border: none;
+    height: 1px;
+  }
+  
+  a {
+    color:var(--grey-light-color);
+    text-decoration: none;
+  }
+  
+  .list-unstyled {
+    list-style-type: none;
+    padding-left: 5rem;
+    margin-top: 0.5rem;
+  }
+  
+  .list-unstyled {
+    line-height: 1.7rem;
+  }
+  
+  .list-title {
+    padding-left: 5rem;
+    font-size: 1.1rem;
+  }
+  
+  .col, .col-details {
+    float: left;
+    width: 20%;
+  }
+  
+  .col-details {
+    color: var(--third-color);
+    font-size: 1rem;
+  }
+  
+  .main-footer{
+    color:var(--white-color);
+    background-image: linear-gradient( var(--second-color), #2d5356);
+    font-size: 1.2rem; 
+    width: 100%;
+    z-index: 10;
+    margin-top: 6vh;
+    padding-top: 2rem;
+    position: absolute;
+    clear: both;
+    height: 25rem;  
+  }
+  
+  
+  .info-footer {
+    display: grid;
+    margin-left: 40%;   
+    padding: 2rem 2rem; 
+    width: 100%;  
+    font-size: 1.1rem;
+  }
+  
+  
+  
+  .img-pagos {
+    height: 3rem; 
+    margin-bottom: 1rem;
+  }
+  
+  .main-footer a:hover {
+    color: var(--first-color);
+    transition: all 0.2s ease-out;
+    
+  }
+  
+  
+  /***** Responsive *****/
+  
+  @media screen and (max-width: 960px) {
+    
+    .hr-footer {
+      display: none;
+    }
+    
+    .col {
+      width: 20%;
+      margin-left: -2rem;       
+    }
+  
+    .col-details {
+      width: 35%;    
+    }       
+  
+    .content-wrap {
+      flex:1;
+    }
+  
+    .container {
+      margin-left: -1rem;  
+    }
+  
+    .main-footer{ 
+      color:var(--white-color);
+      background-image: linear-gradient( var(--second-color), #2d5356);
+      font-size: 1.2rem; 
+      width: 100%;
+      z-index: 10;
+      margin-top: 10vh;
+      padding-top: 2rem;
+      position: absolute;
+      clear: both;    
+    }
+  }
