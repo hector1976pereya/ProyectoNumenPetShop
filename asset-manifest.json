@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/ProyectoNumenPetShop/static/css/main.e02231a1.css",
-    "main.js": "/ProyectoNumenPetShop/static/js/main.513074a6.js",
+    "main.css": "/ProyectoNumenPetShop/static/css/main.9b89cd30.css",
+    "main.js": "/ProyectoNumenPetShop/static/js/main.c81561b1.js",
     "static/media/imgPetShop-2.png": "/ProyectoNumenPetShop/static/media/imgPetShop-2.e91db128728783ef799d.png",
     "static/media/imgPetShop-6.png": "/ProyectoNumenPetShop/static/media/imgPetShop-6.df1852bce8408ac4f8c0.png",
     "static/media/imgPetShop-4.png": "/ProyectoNumenPetShop/static/media/imgPetShop-4.e310485812214d632682.png",
@@ -16,11 +16,11 @@
     "index.html": "/ProyectoNumenPetShop/index.html",
     "static/media/iconmonstr-angel-left-thin.svg": "/ProyectoNumenPetShop/static/media/iconmonstr-angel-left-thin.b74b51c4c35fb292f28d63a42b7d73c9.svg",
     "static/media/iconmonstr-angel-right-thin.svg": "/ProyectoNumenPetShop/static/media/iconmonstr-angel-right-thin.b282d2fca8839e80178c1a178ce23993.svg",
-    "main.e02231a1.css.map": "/ProyectoNumenPetShop/static/css/main.e02231a1.css.map",
-    "main.513074a6.js.map": "/ProyectoNumenPetShop/static/js/main.513074a6.js.map"
+    "main.9b89cd30.css.map": "/ProyectoNumenPetShop/static/css/main.9b89cd30.css.map",
+    "main.c81561b1.js.map": "/ProyectoNumenPetShop/static/js/main.c81561b1.js.map"
   },
   "entrypoints": [
-    "static/css/main.e02231a1.css",
-    "static/js/main.513074a6.js"
+    "static/css/main.9b89cd30.css",
+    "static/js/main.c81561b1.js"
   ]
 }
