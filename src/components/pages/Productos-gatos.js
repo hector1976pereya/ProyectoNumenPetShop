@@ -27,7 +27,19 @@ export default function ProductosGatos() {
 
     return (
         <>
-            <h1>Sección gatos</h1>
+            <h1
+            style={{
+                border: "2px solid black",
+                marginTop:"20px",
+               textAlign:"center",
+               color:"#497174",
+               textShadow: "1px 1px 2px black",
+               background: "#ffffff",
+               marginLeft:"10px",
+               marginRight:"10px",
+              
+              }}
+            >Gatos</h1>
             <Seccion
              productoCats={productoCats} 
              setState={setStateModal}
@@ -47,7 +59,12 @@ export default function ProductosGatos() {
                    
                     <button
                     onClick={()=>setStateModal(false)}
-                    ><Link to="/carrito" class="dropdown-item">
+                    ><Link 
+                    style={{
+                        color: "#EB6440",
+                    }}
+                    
+                    to="/carrito" class="dropdown-item">
                     Ir al carrito
                 </Link></button>
                     
@@ -65,8 +82,10 @@ flex-direction:row-reverse;
 
 button {
     display: flex;
-   
-    margin:5px;
+    margin:20px;
+    padding:3px;
+    color:#EB6440
+    
 }
 
 `;

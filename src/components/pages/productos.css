@@ -1,0 +1,81 @@
+/***** Estilos general *****/
+
+:root {
+    --first-color:#EB6440;
+    --second-color:#497174;
+    --third-color:#D6E4E5;
+    --grey-light-color: #EFF5F5;
+    --white-color: #ffffff;
+    --black-color: #000000;
+    --transparent-color: transparent;
+  }
+  /***** Titulo tarjeta *****/
+.productosP {
+    color: transparent;
+    position:absolute;
+    margin-top: -8rem;
+    margin-left: 8rem;
+  }
+  
+/***** Boton tarjeta *****/
+.productosBtn {
+    background-color: var(--second-color);
+    color: var(--grey-light-color);
+    letter-spacing: .02rem;
+    border: 0px;
+    padding: 0.55rem 2rem;
+    border-width: 1px;
+    border-radius: 4px;
+    font-size: 1rem;
+    font-weight: 600;
+    height: auto;
+    margin-left: 15rem;
+    margin-top: 0.5rem;  
+  }
+
+  .productosBtn:hover {
+    background-color: var(--first-color);
+    cursor: pointer;
+  }
+/***** Imagen tarjeta *****/
+.productosImg {  
+    width: 38rem;
+    height: 13rem;  
+    position: relative;
+    border-top-left-radius: 0.4rem;
+    border-top-right-radius: 0.4rem;
+  }
+  /***** Contenedor tarjetas *****/
+
+
+  /*--------------------------------*/
+  /***** Tarjeta *****/
+.card:hover .productosP {
+    color: var(--white-color);
+    font-size: 2rem;
+    font-weight: 500; 
+  }
+
+  .card {
+    margin: 1rem;
+    place-content: center;
+    box-shadow: 2px 2px 20px rgb(0 0 0 / 15%);
+    height:17rem;
+    width: 38rem;
+    border-radius: 0.4rem;
+  }
+  .card:hover .productosBtn {
+    background-color:var(--first-color);  
+  }
+
+  .card:hover {
+    border-bottom-color: var(--first-color);
+    transition: all 0.2s ease-out;
+    color: var(--grey-light-color);
+  }
+  
+  .card:hover .productosImg{
+    filter: brightness(50%);
+  }
+
+ 

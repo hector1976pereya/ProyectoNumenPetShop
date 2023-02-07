@@ -39,8 +39,9 @@ const ContenedorModal = styled.div`
     background: #fff;
     position: relative;
     border-radius: 5px;
-    box-shadow: rgb(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    box-shadow: rgb(100, 100, 111, 0.2) 2px 7px 29px 2px;
     padding: 20px;
+    border: 2px solid black;
 `;
 
 const EncabezadoModal = styled.div`
@@ -50,6 +51,7 @@ const EncabezadoModal = styled.div`
     margin-bottom: 20px;
     padding-bottom: 20px;
     border-bottom: 1px solid red;
+    color:#497174;
 
     h3 {
         font-size: 16px;

@@ -74,6 +74,7 @@ const Tarjeta = ({objeto, setState,state}) => {
                     fontFamily: "Monserrat",
                     display: "flex",
                     textAlign: "center",
+                    cursor:"pointer",
                 }}
             >
                 AÑADIR COMPRA AL CARRITO

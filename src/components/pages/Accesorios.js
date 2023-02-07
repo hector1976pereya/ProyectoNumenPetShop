@@ -22,43 +22,57 @@ export default function Accesorios() {
     //----------------------------------------------------------------- -----------------------
 
     return (
-        <div>
-            <SeccionAccesorios
-                accesorios={accesorios}
-                setState={setStateModal}
-                state={stateModal}
-            />
-              <Modals
-            state={stateModal}
-            
+        <>
+            <h1
+                style={{
+                    border: "2px solid black",
+                    marginTop: "20px",
+                    textAlign: "center",
+                    color: "#497174",
+                    textShadow: "1px 1px 2px black",
+                    background: "#ffffff",
+                    marginLeft: "10px",
+                    marginRight: "10px",
+                }}
             >
-                <Contenido>
-                    
-                    <button
-                    onClick={()=>setStateModal(false)}
-                    >Seguir comprando</button>
-                   
-                    <button
-                    onClick={()=>setStateModal(false)}
-                    ><Link to="/carrito" class="dropdown-item">
-                    Ir al carrito
-                </Link></button>
-                    
-                    
-                </Contenido>
-            </Modals>
-        </div>
+                Accesorios
+            </h1>
+            <div>
+                <SeccionAccesorios
+                    accesorios={accesorios}
+                    setState={setStateModal}
+                    state={stateModal}
+                />
+                <Modals state={stateModal}>
+                    <Contenido>
+                        <button onClick={() => setStateModal(false)}>
+                            Seguir comprando
+                        </button>
+
+                        <button onClick={() => setStateModal(false)}>
+                            <Link 
+                            
+                            style={{
+                                color: "#EB6440",
+                            }}
+                            to="/carrito" class="dropdown-item">
+                                Ir al carrito
+                            </Link>
+                        </button>
+                    </Contenido>
+                </Modals>
+            </div>
+        </>
     );
 }
-const Contenido= styled.div`
-
-display: flex;
-flex-direction:row-reverse;
-
-button {
+const Contenido = styled.div`
     display: flex;
-   
-    margin:5px;
-}
+    flex-direction: row-reverse;
 
+    button {
+        display: flex;
+        margin: 20px;
+        padding: 3px;
+        color: #eb6440;
+    }
 `;

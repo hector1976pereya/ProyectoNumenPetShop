@@ -54,7 +54,8 @@ const TarjetaPerro = ({objeto,setState,state}) => {
         fontStyle: "bold",
         fontFamily: "Monserrat",
         display:"flex",
-        textAlign: "center"
+        textAlign: "center",
+        cursor:"pointer",
     }}
     >AÑADIR COMPRA AL CARRITO</button>
     </figure>

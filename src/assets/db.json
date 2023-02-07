@@ -205,18 +205,5 @@
       "img": "https://hollywoodpetshop.com.ar/wp-content/uploads/2019/01/ROYAL-CANIN-Baby-Cat-x-15-Kg-300x300.jpg"
     }
   ],
-  "cart": [
-    {
-      "id": 1,
-      "producto": "EUKANUBA PERRO ADULTO X 20 KG",
-      "precio": "4.030",
-      "img": "https://d3ugyf2ht6aenh.cloudfront.net/stores/001/145/238/products/adulto-raza-mediana21-03524fa04b33d8d1ed16357022062093-480-0.webp"
-    },
-    {
-      "id": 22,
-      "producto": "VITALCAN GATOS X 7,5KG",
-      "precio": "4.770",
-      "img": "https://d3ugyf2ht6aenh.cloudfront.net/stores/001/145/238/products/kitten-frente-x751-e9502baf1d46f40ac916485718570775-480-0.webp"
-    }
-  ]
+  "cart": []
 }
