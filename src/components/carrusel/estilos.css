@@ -5,3 +5,9 @@ body {
     font-family: 'Dongle', sans-serif;
 }
 
+
+main {
+    max-width: 1000px;
+    margin: 50px auto;
+    overflow: hidden;
+}

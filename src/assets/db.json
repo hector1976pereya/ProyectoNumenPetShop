@@ -205,5 +205,12 @@
       "img": "https://hollywoodpetshop.com.ar/wp-content/uploads/2019/01/ROYAL-CANIN-Baby-Cat-x-15-Kg-300x300.jpg"
     }
   ],
-  "cart": []
+  "cart": [
+    {
+      "id": 11,
+      "producto": "PRETAL PARA PERROS TALLE S",
+      "precio": "1.770",
+      "img": "https://d3ugyf2ht6aenh.cloudfront.net/stores/001/145/238/products/pretal-paris-11-c196f462818df8a6e116023562258485-480-0.webp"
+    }
+  ]
 }

@@ -86,12 +86,13 @@ const ContenedorButton = styled.div`
         display: flex;
         margin: 10px;
 
-        padding-left: 20px;
-        padding-right: 20px;
+        padding-left: 40px;
+        padding-right: 40px;
         color: #eb6440;
         border-radius: 30px;
         border: 1px solid #497174;
         transition: all 0.2s;
+        font-size:30px;
 
         box-shadow: -3px 1px 1px 2px #497174;
     }

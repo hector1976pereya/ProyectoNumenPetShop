@@ -1,5 +1,7 @@
 import React from "react";
-import "../carrusel/estilos.css";
+
+import "../carrusel/estilos.css"
+
 import Carrusel from "../carrusel/Carrusel";
 import logo from "../../images/logo.jpg";
 import logoPerro from "../../images/perro.jpg";
@@ -19,8 +21,10 @@ export default function Home() {
                 <img src={logo} alt="" />
                 <img src={logoPerro} alt="" />
             </Contenedor>
-
+            <main>
             <Carrusel />
+            </main>
+            
             <h2
             style={{
              border: "2px solid black",

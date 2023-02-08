@@ -19,11 +19,12 @@
   
 /***** Boton tarjeta *****/
 .productosBtn {
+    display: flex;
     background-color: var(--second-color);
     color: var(--grey-light-color);
     letter-spacing: .02rem;
     border: 0px;
-    padding: 0.55rem 2rem;
+    padding: 0.55rem 1rem;
     border-width: 1px;
     border-radius: 4px;
     font-size: 1rem;
@@ -46,7 +47,13 @@
     border-top-right-radius: 0.4rem;
   }
   /***** Contenedor tarjetas *****/
-
+  .cardContainer {    
+    margin-left: 10%;
+    
+    
+    
+   
+  }
 
   /*--------------------------------*/
   /***** Tarjeta *****/
@@ -78,4 +85,25 @@
     filter: brightness(50%);
   }
 
+  @media screen and (max-width: 960px) {
+
+    .productosImg{
+      width: 25rem;
+
+    }
+    .cardContainer {    
+      margin-left: 0%;
+      width: 25rem;
+
+      
+      
+     
+    }
+    .card{
+      display: flex;
+    justify-content: center;
+      width: 25rem;
+    }
+
+  } 
  
