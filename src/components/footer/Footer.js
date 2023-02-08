@@ -10,13 +10,13 @@ const Footer = () => {
                         <h4 className="list-title">Almacén para Mascotas</h4>
                         <ul className="list-unstyled">
                             <li>
-                                <i class="fa-solid fa-phone">&nbsp;&nbsp;</i>TEL
+                                <i class="fa-solid fa-phone">&nbsp;&nbsp;</i>TEL: 12345678
                             </li>
                             <li>
                                 <i class="fa-solid fa-location-dot">
                                     &nbsp;&nbsp;
                                 </i>
-                                DIRECCION
+                                DIRECCION: San Martin
                             </li>
                             <li>
                                 <i class="fa-solid fa-clock">&nbsp;&nbsp;</i>

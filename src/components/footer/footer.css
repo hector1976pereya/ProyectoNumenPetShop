@@ -33,7 +33,9 @@
   }
   
   .list-unstyled {
-    line-height: 1.7rem;
+    line-height: 1.9rem;
+   
+    width: 300px;
   }
   
   .list-title {

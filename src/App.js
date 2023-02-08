@@ -68,7 +68,7 @@ function App() {
                 </Routes>
             </Router>
 
-            <FingWhatsApp/>
+            <FingWhatsApp />
 
            <Footer/>             
 
