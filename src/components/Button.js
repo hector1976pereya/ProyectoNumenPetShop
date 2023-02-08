@@ -7,10 +7,8 @@ import { Link } from 'react-router-dom'
 export function Button() {
   return (
   <Link to='carrito'>
-    <button className='btn'> Carrito <i class="fa-solid fa-cart-shopping"></i>
+    <button className='btn-carrito'> Carrito &nbsp; <i class="fa-solid fa-cart-shopping"></i>
     </button>
   </Link>
   );
 }
-
-

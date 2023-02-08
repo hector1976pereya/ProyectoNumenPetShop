@@ -3,6 +3,7 @@ import { Button } from './Button';
 import { Link } from 'react-router-dom';
 import './Navbar.css';
 import Dropdown from './Dropdown';
+import Logo from '../images/logo.png';
 
 // Navbar
 
@@ -32,19 +33,20 @@ function Navbar() {
   return (
     <>
       <nav className='navbar'>
-        <Link to='/' className='navbar-logo' onClick={closeMobileMenu}>
-        <i class="fa-solid fa-cat"></i>&nbsp;
-          Almacén para mascotas 
+      <div className='navbar-logo'>
+        <Link to='/home' onClick={closeMobileMenu}>
+        <img src={ Logo } className='logo' alt="Logo de Almacen para Mascotas" />       
         </Link>
-        
+
+        </div>
+     
         <div className='menu-icon' onClick={handleClick}>
           <i className={click ? 'fas fa-times' : 'fas fa-bars'} />
         </div>
+       
         <ul className={click ? 'nav-menu active' : 'nav-menu'}>
-
-
           <li className='nav-item'>
-            <Link to='/' className='nav-links' onClick={closeMobileMenu}>
+            <Link to='/Home' className='nav-links' onClick={closeMobileMenu}>
               Home
             </Link>
           </li>
@@ -62,7 +64,7 @@ function Navbar() {
               Productos <i className='fa-solid fa-angle-down' />
             </Link>
             {dropdown && <Dropdown />}
-            
+         
           </li>
 
           <li className='nav-item'>
