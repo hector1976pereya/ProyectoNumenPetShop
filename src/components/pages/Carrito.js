@@ -42,7 +42,8 @@ export default function Carrito() {
                             textAlign: "center",
                             color: "#EB6440",
                             textShadow: "1px 1px 2px black",
-                            marginTop: "30px",
+                            marginTop: "150px",
+                            marginBottom: "150px",
                         }}
                     >
                         Tu carro esta vacio

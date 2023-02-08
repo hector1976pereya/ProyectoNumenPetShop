@@ -66,18 +66,21 @@
   
   
   .info-footer {
-    display: grid;
+    
     margin-left: 40%;   
     padding: 2rem 2rem; 
-    width: 100%;  
+    width: 50%;  
     font-size: 1.1rem;
+
+    
+   
   }
   
   
   
   .img-pagos {
     height: 3rem; 
-    margin-bottom: 1rem;
+    margin-top: 1rem;
   }
   
   .main-footer a:hover {
@@ -85,6 +88,8 @@
     transition: all 0.2s ease-out;
     
   }
+
+  
   
   
   /***** Responsive *****/
@@ -96,12 +101,12 @@
     }
     
     .col {
-      width: 20%;
-      margin-left: -2rem;       
+      display: none;   
     }
   
     .col-details {
-      width: 35%;    
+      width: 35%; 
+      margin-left: 100px;   
     }       
   
     .content-wrap {
@@ -109,7 +114,8 @@
     }
   
     .container {
-      margin-left: -1rem;  
+      margin-left: -1rem; 
+       
     }
   
     .main-footer{ 
@@ -122,5 +128,12 @@
       padding-top: 2rem;
       position: absolute;
       clear: both;    
+    }
+    .info-footer {
+    
+      margin-left: 30%; 
+    }
+    .copyright-footer{
+      display: none;
     }
   }
